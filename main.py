@@ -47,7 +47,7 @@ def dcf(ticker):
     except:
         return "Error: EPS < 1.0."
     return (
-        "WARNING: This is not investment advice. No single algorithm can state the true fair value. Do not trust this without doing your own search. \n\n"
+        "WARNING: This is not investment advice. No single algorithm can state the true fair value. Do not trust this without doing your own research. \n\n"
         + graham_analysis
         + "\n\nMy Algorithm"
         + dcf_analysis
