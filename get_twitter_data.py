@@ -2,7 +2,8 @@ import twint
 
 c = twint.Config()
 
-def get_ticker_verfieid(tickr = "$AAPL"):
+
+def get_ticker_verfieid(tickr="$AAPL"):
     c.Search = tickr
     c.Verified = True
     c.Native_retweets = True
@@ -13,4 +14,6 @@ def get_ticker_verfieid(tickr = "$AAPL"):
 
     tweets_as_objects = twint.output.tweets_list
     print(tweets_as_objects)
+
+
 get_ticker_verfieid()
